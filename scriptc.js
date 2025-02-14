@@ -29,7 +29,7 @@ function init() {
 			container.addChild(heart);
 		}
 
-  var text = new createjs.Text("Eres como un rayito de sol, llegas, brillas, me haces sonreir  y tu presencia se siente como un cálido y largo abrazo.\n Perdon si alguna vez necesitabas que estuviera  y no lo estuve, pero jamas volvera a pasar \n porque mientras el mundo no deje de existir y nos volvamos polvo, mi corazón siempre buscara el tuyo. \n PD: NUNCA OLVIDES LO MARAVILLOSO Y LINDO QUE ERES TE ADORO \n ♡♡♡♡", "bold 24px Arial", "#fff");
+  var text = new createjs.Text("Eres como un rayito de sol, llegas, brillas, me haces sonreir  \n y tu presencia se siente como un cálido y largo abrazo.\n Perdon si alguna vez necesitabas que estuviera  y no lo estuve, pero jamas volvera a pasar \n porque mientras el mundo no deje de existir y nos volvamos polvo, mi corazón siempre buscara el tuyo. \n PD: NUNCA OLVIDES LO MARAVILLOSO Y LINDO QUE ERES TE ADORO \n ♡♡♡♡", "bold 24px Arial", "#fff");
   text.textAlign = "center";
   text.x = w / 2;
   text.y = h / 2 - text.getMeasuredLineHeight();
